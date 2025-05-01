@@ -1,0 +1,138 @@
+
+ /* Primary */
+ :root{
+    --Purple-50: hsl(260, 100%, 95%);
+    --Purple-300: hsl(264, 82%, 80%);
+    --Purple-500: hsl(263, 55%, 52%);
+    
+    /* Neutral */
+    
+    --White: hsl(0, 0%, 100%);
+    --Grey-100: hsl(214, 17%, 92%);
+    --Grey-200: hsl(0, 0%, 81%);
+    --Grey-400: hsl(224, 10%, 45%);
+    --Grey-500: hsl(217, 19%, 35%);
+    --Dark-blue: hsl(219, 29%, 14%);
+    --Black: hsl(0, 0%, 7%);
+    
+    }
+    
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        background-color: var(--Purple-50);
+        color: var(--Grey-500);
+        height: 100vh;
+    }
+    
+    .container{
+        display: grid;
+        margin-block: 4em;
+        margin-inline: 2em;
+        grid-gap: 2em;
+    }
+    
+    .card{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        border-radius: .7em;
+        padding-block: 2em;
+        padding-inline: 2em;
+    }
+    
+  
+    .card__image {
+        margin-inline-end: 1em;
+        border-radius: 50%;
+        width:2.5em;
+        height: 2.5em;
+        border: .18em solid var(--Purple-300);
+        
+    }
+    
+    /*cards with white text  */
+    
+    .white-text .card__name{
+       color: Var(--Grey-100);
+        font-size: 0.9em;    
+    }
+    
+    .white-text .card__title{ 
+        color: Var(--Grey-100);   
+        font-size: 0.75em;
+    }
+    
+    .white-text .card__description{
+        padding-block: 1em;
+        color: Var(--White);
+        font-size: 1.08em;
+        font-weight: 600;
+        
+    }
+    
+    .white-text .card__quote{
+        color: Var(--Grey-200);
+        font-size: .92em;
+    }
+    
+    /*cards with dark text  */
+    
+    
+    .black-text .card__name{
+        margin: 0;
+       color: Var(--Grey-400);
+        font-size: 0.9em;  
+        
+    }
+    
+    .black-text .card__title{ 
+        margin: 0;
+        color: Var(--Grey-400);   
+        font-size: 0.8em;
+    }
+    
+    .black-text .card__description{
+        color: var(--Grey-500);
+         padding-block: 1em;
+         font-size: 1.08em;
+        font-weight: 600;
+    }
+    
+    .black-text .card__quote{
+        color: Var(--Grey-400);
+        font-size: .92em;
+    }
+    
+    .card-1{
+        background-color: var(--Purple-500);
+    }
+    
+    .card-2{
+        background-color: var(--Grey-500);
+    }
+    
+    .card-3{
+        background-color: var(--White);
+    }
+    
+    .card-4{
+        background-color: var(--Dark-blue);
+    }
+    
+    .card-5{
+        background-color: var(--White);
+    }
+    
+@media (max-width:80em){
+    .white-text .card__description,
+    .black-text .card__description{
+        font-size: clamp(1em, 3vw, 2em);
+    }
+}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
