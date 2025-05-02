@@ -63,9 +63,7 @@
         border: .18em solid var(--Purple-300);
      }
     
-.quote-mark{
-									margin-inline-start:8em;
-}
+
     /*cards with white text  */
     
     .white-text .card__name{
@@ -188,9 +186,7 @@
             max-width: 550px;
         }
         
-				.quote-mark img{
-									visible:false;
-}
+				
     .white-text .card__description,
     .black-text .card__description {
         font-size: 1.1rem;
