@@ -63,6 +63,9 @@
         border: .18em solid var(--Purple-300);
      }
     
+.quote-mark img{
+									display:block;
+}
     /*cards with white text  */
     
     .white-text .card__name{
@@ -185,7 +188,7 @@
             max-width: 550px;
         }
         
-				.quote-mark{
+				.quote-mark img{
 									display:none;
 }
     .white-text .card__description,
