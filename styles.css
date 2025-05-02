@@ -64,8 +64,10 @@
      }
     
 .quote-mark{
-									margin-inline-start:40em;
+						width:50%;
+						margin-inline-start:5em;
 }
+
     /*cards with white text  */
     
     .white-text .card__name{
