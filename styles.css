@@ -64,6 +64,8 @@
      }
     
 .quote-mark{
+						display :flex;
+						flex-direction :row;
 						width:50%;
 						margin-inline-start:5em;
 }
