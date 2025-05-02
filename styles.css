@@ -63,7 +63,9 @@
         border: .18em solid var(--Purple-300);
      }
     
-
+.quote-mark{
+									margin-inline-start:40em;
+}
     /*cards with white text  */
     
     .white-text .card__name{
