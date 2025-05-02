@@ -63,10 +63,10 @@
         border: .18em solid var(--Purple-300);
      }
     
-.quote-mark{
+/*.quote-mark{
 						display :none;
 						z-index :1;
-}
+}*/
 
     /*cards with white text  */
     
@@ -179,12 +179,12 @@
         grid-column: 4;
         grid-row: 1 / 3;
     }
-.quote-mark{
+/*.quote-mark{
 							display :inline;
 						/*	position :absolute ;*/
 							top:0;
 							left:6em;
-}
+}*/
 
 /*  max-width 767px    */
     
