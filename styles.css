@@ -64,9 +64,8 @@
      }
     
 .quote-mark{
-						display :flex;
-						flex-direction :row;
-						align-items :center ;
+						display :none;
+						z-index :1;
 }
 
     /*cards with white text  */
