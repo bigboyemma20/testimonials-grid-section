@@ -179,6 +179,12 @@
         grid-column: 4;
         grid-row: 1 / 3;
     }
+.quote-mark{
+							display :block ;
+							position :absolute ;
+							margin-block-start:0;
+							margin-inline-start:6em;
+}
 
 /*  max-width 767px    */
     
