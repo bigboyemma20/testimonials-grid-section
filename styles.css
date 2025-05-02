@@ -63,7 +63,10 @@
         border: .18em solid var(--Purple-300);
      }
     
-
+.quote-mark{
+									display :flex;
+									margin-inline-start:8em;
+}
     /*cards with white text  */
     
     .white-text .card__name{
