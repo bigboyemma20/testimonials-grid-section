@@ -1,4 +1,4 @@
-
+8 
  /* Primary */
  :root{
     --Purple-50: hsl(260, 100%, 95%);
@@ -65,7 +65,7 @@
     
 .quote-mark{
 						display :none;
-						z-index :1;
+						/*z-index :1;*/
 }
 
     /*cards with white text  */
