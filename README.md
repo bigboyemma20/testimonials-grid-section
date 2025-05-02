@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/testimonial-grid-section-with-css-grid-Eqco7b8ze-
 - Live Site URL:(https://bigboyemma20.github.io/testimonials-grid-section/)
 
 ## My process
