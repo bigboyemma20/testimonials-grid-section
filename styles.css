@@ -181,9 +181,9 @@
     }
 .quote-mark{
 							display :inline;
-						/*	position :absolute ;
-							margin-block-start:0;*/
-							start:6em;
+						/*	position :absolute ;*/
+							top:0;
+							left:6em;
 }
 
 /*  max-width 767px    */
