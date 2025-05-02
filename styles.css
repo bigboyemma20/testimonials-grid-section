@@ -64,7 +64,7 @@
      }
     
 .quote-mark img{
-									display:block;
+									margin-inline-start:2em;
 }
     /*cards with white text  */
     
@@ -189,7 +189,7 @@
         }
         
 				.quote-mark img{
-									display:none;
+									visible:false;
 }
     .white-text .card__description,
     .black-text .card__description {
