@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: 
-- Live Site URL:https://bigboyemma20.github.io/testimonials-grid-section/
+- Live Site URL:(https://bigboyemma20.github.io/testimonials-grid-section/)
 
 ## My process
 
